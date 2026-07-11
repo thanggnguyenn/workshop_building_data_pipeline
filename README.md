@@ -311,3 +311,12 @@ FROM {db.WAREHOUSE_SCHEMA}.CALENDAR
 GROUP BY month
 ORDER BY month ASC
 ```
+---
+
+## 📜 Credits & Acknowledgments
+
+This project is an adaptation based on the original workshop structure and starter codebase provided by:
+* **Original Repository:** [alexeygrigorev/exasol-workshop-starter](https://github.com/alexeygrigorev/exasol-workshop-starter)
+* **Author:** [Alexey Grigorev](https://github.com/alexeygrigorev) and contributors.
+
+Thank you to the original creators for providing the foundation for this Data Engineering pipeline!
