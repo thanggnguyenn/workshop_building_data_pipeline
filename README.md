@@ -44,6 +44,8 @@ LISTINGS: Stores property details (ID, host information, room type, price, minim
 
 Run the following script: `uv run python find_extract_url.py`
 
+File `find_extract_url.py` is in the `utils` folder.
+
 This will return a JSON file that contained all the urls for ETL process.
 
 ## ETL step-by-step implementation
