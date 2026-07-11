@@ -124,7 +124,9 @@ FROM INSIDE_AIRBNB_STAGING.STG_NEIGHBOURHOODS_<city name>
 
 ## Automated pipelines with Python
 
-Before running the following steps, you need to install (**uv - python package manager**) [https://docs.astral.sh/uv/], then create a virtual enviroment with command: `uv init --python <version>`
+Before running the following steps, you need to install [**uv - python package manager**](https://docs.astral.sh/uv/), then create a virtual enviroment with command: `uv init --python <version>`
+
+Add necessary package with command: `uv add <package name>` (for example: clickhouse-connect)
 
 To run the full pipeline for a specific city (for example, albany), follow these steps in order:
 
